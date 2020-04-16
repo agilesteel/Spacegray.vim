@@ -55,9 +55,9 @@ else
 endif
 
 if g:spacegray_use_italics
-  hi Comment       ctermbg=NONE ctermfg=167     guibg=NONE     guifg=#CC6666  cterm=italic    gui=italic
+  hi Comment       ctermbg=NONE ctermfg=9     guibg=NONE     guifg=#CC6666  cterm=italic    gui=italic
 else
-  hi Comment       ctermbg=NONE ctermfg=167     guibg=NONE     guifg=#CC6666  cterm=NONE      gui=NONE
+  hi Comment       ctermbg=NONE ctermfg=9     guibg=NONE     guifg=#CC6666  cterm=NONE      gui=NONE
 endif
 
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
@@ -130,7 +130,7 @@ endif
 hi Underlined      ctermbg=NONE ctermfg=66     guibg=NONE     guifg=#5F8787  cterm=NONE      gui=NONE
 hi Ignore          ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#BCBCBC  cterm=NONE      gui=NONE
 
-hi Visual          ctermbg=236  ctermfg=NONE   guibg=#404040  guifg=NONE     cterm=NONE      gui=NONE
+hi Visual          ctermbg=59   ctermfg=NONE   guibg=#4C5966  guifg=NONE     cterm=NONE      gui=NONE
 hi VisualNOS       ctermbg=8    ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=bold      gui=bold
 
 hi FoldColumn      ctermbg=NONE ctermfg=242    guibg=#1C1C1C  guifg=#6C6C6C  cterm=NONE      gui=NONE
