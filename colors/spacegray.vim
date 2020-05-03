@@ -47,11 +47,11 @@ let colors_name = 'spacegray'
 
 " Colorscheme definitions {{{1
 if g:spacegray_low_contrast
-  hi Normal        ctermbg=235  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi Terminal      ctermbg=235  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Normal        ctermbg=NONE  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
 else
-  hi Normal        ctermbg=234  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi Terminal      ctermbg=234  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Normal        ctermbg=NONE  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
 endif
 
 if g:spacegray_use_italics
@@ -77,7 +77,7 @@ hi Cursor          ctermbg=NONE ctermfg=NONE   guibg=#6C6C6C  guifg=NONE     cte
 hi CursorColumn    ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
 hi CursorLine      ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
 hi ColorColumn     ctermbg=235  ctermfg=NONE   guibg=#303537  guifg=NONE     cterm=NONE      gui=NONE
-hi SignColumn      ctermbg=233  ctermfg=250    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
+hi SignColumn      ctermbg=NONE  ctermfg=250    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
 
 hi Todo            ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=reverse   gui=reverse
 hi Error           ctermbg=52   ctermfg=12     guibg=NONE     guifg=#AF5F5F  cterm=underline gui=reverse
@@ -98,7 +98,7 @@ hi helpNormal      ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cte
 hi LineNr          ctermbg=NONE ctermfg=8      guibg=#111314  guifg=#3E4853  cterm=NONE      gui=NONE
 hi CursorLineNr    ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
 
-hi Pmenu           ctermbg=233  ctermfg=137    guibg=#171717  guifg=#E8A973  cterm=none      gui=NONE
+hi Pmenu           ctermbg=NONE  ctermfg=137    guibg=#171717  guifg=#E8A973  cterm=none      gui=NONE
 hi PmenuSel        ctermbg=234  ctermfg=196    guibg=#252525  guifg=#FF2A1F  cterm=bold      gui=bold
 hi PmenuSbar       ctermbg=233  ctermfg=000    guibg=#333233  guifg=#000000  cterm=NONE      gui=none
 hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cterm=none      gui=none
@@ -106,24 +106,24 @@ hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cte
 hi WildMenu        ctermbg=110  ctermfg=235    guibg=#8FAFD7  guifg=#141617  cterm=bold      gui=bold
 
 if g:spacegray_low_contrast
-  hi StatusLine         ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+  hi StatusLine         ctermbg=NONE ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+  hi StatusLineTerm     ctermbg=NONE ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
   if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineNC     ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineTermNC ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
   else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineNC     ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineTermNC ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
   endif
 else
-    hi StatusLine       ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-    hi StatusLineTerm   ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+    hi StatusLine       ctermbg=NONE ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+    hi StatusLineTerm   ctermbg=NONE ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
   if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineNC     ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineTermNC ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
   else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineNC     ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineTermNC ctermbg=NONE ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
   endif
 endif
 
@@ -145,7 +145,7 @@ else
   hi Search        ctermbg=2    ctermfg=232    guibg=#919652  guifg=#141617  cterm=NONE      gui=NONE
 endif
 
-hi TabLine         ctermbg=232  ctermfg=249    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
+hi TabLine         ctermbg=NONE  ctermfg=249    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi TabLineFill     ctermbg=235  ctermfg=239    guibg=#303537  guifg=#303537  cterm=NONE      gui=NONE
 hi TabLineSel      ctermbg=145  ctermfg=0      guibg=#7D8FA3  guifg=#111314  cterm=NONE      gui=NONE
 
