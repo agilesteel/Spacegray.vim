@@ -47,11 +47,11 @@ let colors_name = 'spacegray'
 
 " Colorscheme definitions {{{1
 if g:spacegray_low_contrast
-  hi Normal        ctermbg=NONE  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=#262626  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Normal        ctermbg=NONE  ctermfg=250    guibg=NONE  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=NONE  guifg=#B3B8C4  cterm=NONE      gui=NONE
 else
-  hi Normal        ctermbg=NONE  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Normal        ctermbg=NONE  ctermfg=250    guibg=NONE  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Terminal      ctermbg=NONE  ctermfg=250    guibg=NONE  guifg=#B3B8C4  cterm=NONE      gui=NONE
 endif
 
 if g:spacegray_use_italics
@@ -73,11 +73,11 @@ hi Statement       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#A57A9E  cte
 hi String          ctermbg=NONE ctermfg=107    guibg=NONE     guifg=#95B47B  cterm=NONE      gui=NONE
 hi Type            ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
 
-hi Cursor          ctermbg=NONE ctermfg=NONE   guibg=#6C6C6C  guifg=NONE     cterm=NONE      gui=NONE
-hi CursorColumn    ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
-hi CursorLine      ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
-hi ColorColumn     ctermbg=235  ctermfg=NONE   guibg=#303537  guifg=NONE     cterm=NONE      gui=NONE
-hi SignColumn      ctermbg=NONE  ctermfg=250    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
+hi Cursor          ctermbg=NONE ctermfg=NONE    guibg=#6C6C6C  guifg=NONE     cterm=NONE      gui=NONE
+hi CursorColumn    ctermbg=0    ctermfg=NONE    guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
+hi CursorLine      ctermbg=0    ctermfg=NONE    guibg=#303030  guifg=NONE     cterm=NONE      gui=NONE
+hi ColorColumn     ctermbg=235  ctermfg=NONE    guibg=#303537  guifg=NONE     cterm=NONE      gui=NONE
+hi SignColumn      ctermbg=NONE  ctermfg=250    guibg=NONE  guifg=#B3B8C4  cterm=NONE      gui=NONE
 
 hi Todo            ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=reverse   gui=reverse
 hi Error           ctermbg=52   ctermfg=12     guibg=NONE     guifg=#AF5F5F  cterm=underline gui=reverse
@@ -95,7 +95,7 @@ hi DiffText        ctermbg=60   ctermfg=251    guibg=#5F5F87   guifg=#D0D0D0 cte
 hi helpLeadBlank   ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 hi helpNormal      ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 
-hi LineNr          ctermbg=NONE ctermfg=8      guibg=#111314  guifg=#3E4853  cterm=NONE      gui=NONE
+hi LineNr          ctermbg=NONE ctermfg=8      guibg=NONE  guifg=#3E4853  cterm=NONE      gui=NONE
 hi CursorLineNr    ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
 
 hi Pmenu           ctermbg=NONE  ctermfg=137    guibg=#171717  guifg=#E8A973  cterm=none      gui=NONE
